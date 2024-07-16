@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "756421822783",
+    "firebase_url": "https://dars66-ae91b-default-rtdb.firebaseio.com",
+    "project_id": "dars66-ae91b",
+    "storage_bucket": "dars66-ae91b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756421822783:android:09daa53c47e60d482b6b8a",
+        "android_client_info": {
+          "package_name": "com.example.dars64_statemanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc5BvJzSKz9XpJXl1I-8YCpzg0p9VGcYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756421822783:android:1a6cd518a7f791292b6b8a",
+        "android_client_info": {
+          "package_name": "com.example.tadbiroemas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc5BvJzSKz9XpJXl1I-8YCpzg0p9VGcYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
