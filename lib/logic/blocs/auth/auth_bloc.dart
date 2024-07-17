@@ -48,6 +48,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
 
   void _onLogout(LogoutEvent event, emit) async {
     // clear tokens
+    emit(LoadingAuthState());
     emit(UnAuthenticatedAuthState());
   }
 

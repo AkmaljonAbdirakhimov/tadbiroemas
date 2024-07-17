@@ -16,6 +16,7 @@ dependencies:
   flutter_bloc: ^8.1.6
   http: ^1.2.1
   shared_preferences: ^2.2.3
+  stream_transform: ^2.1.0
 
 dev_dependencies:
   flutter_test:

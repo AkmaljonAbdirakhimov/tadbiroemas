@@ -2,12 +2,14 @@ class User {
   final String id;
   String email;
   String token;
+  String refreshToken;
   DateTime expiresIn;
 
   User({
     required this.id,
     required this.email,
     required this.token,
+    required this.refreshToken,
     required this.expiresIn,
   });
 
@@ -16,6 +18,7 @@ class User {
       id: json['localId'],
       email: json['email'],
       token: json['idToken'],
+      refreshToken: json['refreshToken'],
       expiresIn: DateTime.now().add(
         Duration(
           seconds: int.parse(
@@ -31,6 +34,7 @@ class User {
       "localId": id,
       "email": email,
       "idToken": token,
+      "refreshToken": refreshToken,
       "expiresIn": expiresIn.toString(),
     };
   }
